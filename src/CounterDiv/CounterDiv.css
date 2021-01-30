@@ -1,0 +1,13 @@
+.counterDiv {
+  display: grid;
+  margin: auto;
+  border: 2px solid black;
+  width: 15em;
+  height: 10em;
+  background-color: white;
+  text-align: center;
+}
+
+.counterDiv h1 {
+  margin: auto;
+}
