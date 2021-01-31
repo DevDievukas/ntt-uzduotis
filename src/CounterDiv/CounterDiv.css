@@ -1,6 +1,10 @@
 .counterDiv {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -7.5em;
+  margin-top: -5em;
   display: grid;
-  margin: auto;
   border: 2px solid black;
   width: 15em;
   height: 10em;

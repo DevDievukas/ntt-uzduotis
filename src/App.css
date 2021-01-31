@@ -3,4 +3,5 @@
   width: 100%;
   min-height: 100vh;
   margin: auto;
+  transition: background-color 2s;
 }

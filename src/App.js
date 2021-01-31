@@ -29,7 +29,7 @@ const App = () => {
     window.addEventListener('keydown', () => showDiv());
     const interval = setInterval(() => {
       setCounter((prevCounter) => prevCounter + 1);
-    }, 1000);
+    }, 5000);
     return () => {
       clearInterval(interval);
     };
@@ -43,7 +43,6 @@ const App = () => {
 
   return (
     <div className="App" style={{ backgroundColor: colors[counter % 10] }}>
-      <h1>{counter}</h1>
       {showMouseDiv ? (
         <CounterDiv setShow={setShowMouseDiv} ref={counterRef} />
       ) : null}
